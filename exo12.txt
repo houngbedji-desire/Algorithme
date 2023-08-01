@@ -1,0 +1,13 @@
+		Algorithme somme;
+
+		var
+		nombre1, nombre2, somme :entier;		
+
+		debut
+			ecrire "entrez un premier nombre";
+			lire nimbre1;
+			ecrire "entrez le secomnd nombre";
+			lire nombre2;
+			somme <---- nombre1+nombre2;
+			ecricre "la somme est",somme;
+		fin

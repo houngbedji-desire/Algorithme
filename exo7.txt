@@ -1,0 +1,21 @@
+		Algorithme factoriuel;
+
+		var
+		a,b,: entiers;
+
+		debut 
+			ecrire "entrez un nombre"; 
+			lire a 
+			si (a=0) alors
+			ecrire "le factoriel de "a "est", 1;
+			sinon si (a<0) alors 
+			ecrire "le fdactoriel de ce nombre n'existe pas";
+			sinon 
+			(b<---- a-1)
+				tant (b<>0) faire; 
+				a<----- a*b 
+				b<-----b-1;
+				fin tantque 
+				ecrire "le fqactoriel de ce nombre est",a;
+			finsi
+		fin

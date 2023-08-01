@@ -1,0 +1,19 @@
+		Algorithme comprise;
+
+		var
+		nombre;
+
+		debut
+
+			repeter
+			ecicre "entrez un nombre";
+			lire nombre;
+				si nbombre >=20 and nombre <=10;
+				ecire "bonne reponse; 
+				sinon si nombre>20 ;
+				ecire"plus petit";
+				sinon si nombre <10;
+				ecrire"plus grand";
+				finsi
+			jusqu'a ce que (nombre >=20) and (nombre<=10);
+		fin

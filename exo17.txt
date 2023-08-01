@@ -1,0 +1,18 @@
+		Algorithme nombre;
+
+		var
+		m,n : entiers;
+
+		debut
+			ecrire "entrez un premier nombre";
+			lire m;
+			ecrire "entrez un deuxieme nombre";
+			lire n;
+			si (m*n>+0) alors 
+				ecrire "positifs";
+			sinon si (m*n<0) alors 
+				ecrire "negatifs";
+			sinon
+				ecrire "nul";
+			finsi
+		fin

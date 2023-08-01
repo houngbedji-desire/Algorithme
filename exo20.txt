@@ -1,0 +1,12 @@
+		Algoriuthme multplication;
+
+		var 
+		i,j : entiers;
+
+		debut 
+			ecrire "entrez un nombre";
+			lire i
+			pour j---->1à10;
+			ecrire i"*"j"=",i*j;
+			fin pour 
+		fin

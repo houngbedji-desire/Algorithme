@@ -1,0 +1,18 @@
+		Algorithme demande;
+
+		Var
+  		nombre : entier;
+		trouver: booleen;
+
+		Debut
+
+			Ecricre " entrez un nombre";
+			lire nombre;
+
+			Repeter 
+			ecrire "entrez en nombre";
+			lire nombre;
+			jusqu'a ce que (nombre>=1) and (nombre<=3);
+
+		fin
+			

@@ -1,0 +1,9 @@
+		Algorithme affichier;
+
+		var
+		mots : chiane de caratere;
+
+		debut
+			ecrire"BONJOUR";
+
+		fin

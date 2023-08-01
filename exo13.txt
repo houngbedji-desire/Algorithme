@@ -1,0 +1,15 @@
+		Algorithme permitation;
+
+		var
+		tmp,a,b :entiers;
+
+		debut
+			ecrire "entrez un pemier nombre";
+			lire a;
+			ecrire "entrez un deuxieme nombre";
+			lire b;
+				tmp<---- a;
+				a<----b;
+				b<----tmp;
+			ecrire "les entiers sont",a,b;
+		fin

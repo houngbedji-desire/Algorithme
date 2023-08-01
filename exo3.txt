@@ -1,0 +1,14 @@
+		Algorithe nombre-suivant;
+
+		Var
+		nombre,i : entiers;
+
+		debut
+
+			ecrire"entrez un nombre";
+			lire nombre;
+			pour i----->1à10;
+			nombre<----nombre+1;
+			fin pour 
+			ecrire"nombre";
+		fin

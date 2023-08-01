@@ -1,0 +1,15 @@
+		Algorithme paire-impaire;
+
+		var
+		nombre, d : entiers;
+
+		debut
+			ecrire "entrez un nombre";
+			lire nombre
+			d<----nombre mod 2
+			si d<> 0 alors
+				ecrire "le nombre est";"impaire";
+			sinon 
+				ecrire "le nombre est","paire"
+			finsi
+		fin
